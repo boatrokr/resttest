@@ -20,6 +20,8 @@ describe('express rest api server', function(){
   })
 
   it('retrieves an object', function(done){
+    console.log('********* ID');
+    console.log(id);
     superagent.get('http://localhost:3000/collections/test/'+id)
       .end(function(e, res){
         // console.log(res.body)
