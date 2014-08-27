@@ -69,7 +69,7 @@ describe('express rest api server', function(){
       })
   })
 
-  it('removes an object', function(done){
+  /*it('removes an object', function(done){
     superagent.del('http://localhost:3000/collections/test/'+id)
       .end(function(e, res){
         //console.log(res.body)
@@ -78,5 +78,5 @@ describe('express rest api server', function(){
         expect(res.body.msg).to.eql('success')
         done()
       })
-  })
+  })*/
 })
