@@ -44,7 +44,7 @@ describe('express rest api server', function(){
       })
   })
 
-  it('updates an object', function(done){
+  /*it('updates an object', function(done){
     superagent.put('http://localhost:3000/collections/test/'+id)
       .send({name: 'Peter'
         , email: 'peter@yahoo.com'})
@@ -55,8 +55,8 @@ describe('express rest api server', function(){
         expect(res.body.msg).to.eql('success')
         done()
       })
-  })
-  it('checks an updated object', function(done){
+  })*/
+  /*it('checks an updated object', function(done){
     superagent.get('http://localhost:3000/collections/test/'+id)
       .end(function(e, res){
         //console.log(res.body)
@@ -67,7 +67,7 @@ describe('express rest api server', function(){
         expect(res.body.name).to.eql('Peter')
         done()
       })
-  })
+  })*/
 
   /*it('removes an object', function(done){
     superagent.del('http://localhost:3000/collections/test/'+id)
